@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/homepage.css" />
+		<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no,shrink-to-fit=no,viewport-fit=cover" />
+		<title>Homepage</title>
+	</head>
+	<body>
+		<!-- <script type="text/javascript">
+			//相当于调用李$（）.ready方法
+			$(function() {
+				//避免创建全局变量
+				console.log($("web"))
+			})
+		</script> -->
+		<div class="wrapper">
+			<div class="logo"><img src="../img/logo_03.jpg"></div>
+			<div class="content">
+				<form action="#" method="post" onsubmit="return false">
+					<!-- //提示语 -->
+					<div class="notice">123</div>
+					<table border="" cellspacing="" cellpadding="">
+						<tr>
+							<td colspan="2">
+								姓名：<input class="name" type="text" name="uname" id="" value="" />
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">+86 <input class="phone" name="phone_num" maxlength="11" />
+						</tr>
+						<tr>
+							<td colspan="2">
+								身份证号码：<input class="id"type="text" name="idcard_num"/></td>
+						</tr>
+						<tr>
+							<td class="requestRecord">
+								我的预约</td>
+							
+							<!-- <td class="appoint" onclick="MtaH5.clickStat('login',{'idlogin':'true'})">开始预约</td> -->
+							<td class="appoint">开始预约</td>
+						</tr>
+					</table>
+			</div>
+
+			</form>
+			
+			
+		</div>
+		<script type="text/javascript" src="../js/api.js">	</script>
+		<script src="../js/rem_750.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+		<script src="../js/util.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		<script type="text/javascript" src="../js/homepage.js">
+		</script>
+		
+		<script>
+		  	var _mtac = {"senseHash":0,"autoReport":0};
+		  	(function() {
+		  		var mta = document.createElement("script");
+		  		mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+		  		mta.setAttribute("name", "MTAH5");
+		  		mta.setAttribute("sid", "500712135");
+		  		mta.setAttribute("cid", "500712139");
+		  		var s = document.getElementsByTagName("script")[0];
+		  		s.parentNode.insertBefore(mta, s);
+		  	})();
+		</script>        
+		
+	</body>
+</html>

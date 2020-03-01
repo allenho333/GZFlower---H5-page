@@ -1,0 +1,33 @@
+//定义工具函数
+
+// // 640px=100vw 设计稿尺寸
+// //1px = 100/640 vw/px
+// @function px2vw($px){
+// 	@return $px * 100/640 * 1vw;
+// }
+// // 假设640设计稿,html的font-size为64,则
+// // 64px = 1rem
+// // 1px = 1/64 rem/px
+// //注意:这里的64记得同步到rem.js文件中
+// @function px2rem($px){
+// 	@return $px * 1/64 * 1rem;
+// }
+// @function pxd2($px){
+// 	@return $px / 2 * 1px;
+// }
+
+// 750px=100vw 设计稿尺寸
+//1px = 100/750 vw/px
+@function px2vw($px){
+	@return $px * 100/750 * 1vw;
+}
+// 假设640设计稿,html的font-size为64,则
+// 64px = 1rem
+// 1px = 1/64 rem/px
+//注意:这里的64记得同步到rem.js文件中
+@function px2rem($px){
+	@return $px * 1/100 * 1rem;
+}
+@function pxd2($px){
+	@return $px / 2 * 1px;
+}

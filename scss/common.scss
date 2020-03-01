@@ -1,0 +1,23 @@
+@import "./font_icon";
+@import "./_reset";
+@import "./_mixin";
+@import  "./_variable";
+@import  "./_until";
+@import "./_alert";
+
+
+
+html{
+	font-family: "SourceHanSansCNMedium",'Heiti SC', 'Microsoft YaHei';
+}
+
+.hidden{
+	display: none;
+}
+
+.display{
+	display: block;
+}
+.inline-block{
+	display: inline-block;
+}

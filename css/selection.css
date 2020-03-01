@@ -1,0 +1,234 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "SourceHanSansCNMedium";
+  src: url("../font/SourceHanSansCNMedium.ttf") format("truetype"); }
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+body,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+input,
+select,
+textarea,
+button,
+th,
+td,
+menu {
+  margin: 0;
+  padding: 0; }
+
+* {
+  box-sizing: border-box; }
+
+ul,
+dl,
+ol {
+  list-style: none; }
+
+img,
+fieldset,
+input[type="submit"] {
+  border: 0 none; }
+
+em {
+  font-style: normal; }
+
+strong {
+  font-weight: normal; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+button,
+input[type="button"] {
+  cursor: pointer;
+  border: 0 none; }
+
+a,
+button,
+input,
+img {
+  -webkit-touch-callout: none; }
+
+img {
+  /*pointer-events:none;*/
+  /*禁止图片的点击事件，例如长按保存图片*/ }
+
+input,
+select,
+textarea {
+  outline: none; }
+
+a {
+  text-decoration: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+html,
+body {
+  /*禁止用户选择元素*/
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  /*禁止元素点击出现半透明黑色背景*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+html {
+  width: 100%;
+  font-family: 'Heiti SC', 'Microsoft YaHei';
+  outline: 0;
+  -webkit-text-size-adjust: none; }
+
+body {
+  margin: 0;
+  position: relative; }
+
+.clear {
+  clear: both; }
+
+.alert_wrapper {
+  width: 78.667vw;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50.667vw;
+  font-size: 5vw;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.86);
+  border-radius: 1.333vw; }
+
+.alert_btn {
+  width: 50%; }
+
+.alert_wrapper {
+  position: fixed;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  display: none; }
+
+.alert_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+  min-height: 28vw; }
+
+.alert_btn_confirm {
+  position: fixed;
+  right: 0;
+  top: 55%; }
+
+html {
+  font-family: "SourceHanSansCNMedium",'Heiti SC', 'Microsoft YaHei'; }
+
+.hidden {
+  display: none; }
+
+.display {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+body {
+  background: url(../img/微信界面-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.option {
+  display: none; }
+
+.active {
+  display: block; }
+
+.shallowBlue {
+  color: #639ed2; }
+
+.iconfont {
+  padding-left: 10px;
+  position: absolute;
+  left: 16vw; }
+
+.select {
+  width: 20vw;
+  border: none;
+  padding: 1px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: white; }
+
+div.content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 23vw;
+  opacity: 70%;
+  width: 79vw;
+  height: 840px;
+  background-color: #ffffff;
+  box-shadow: 0vw 1vw 2vw 1vw rgba(0, 0, 0, 0.3);
+  border-radius: 1vw; }
+  div.content div.date {
+    width: 150px;
+    height: 4vw;
+    font-size: 4vw;
+    line-height: 6vw;
+    position: relative;
+    color: #0075c1;
+    display: inline-block;
+    margin-left: 6.6666666667vw; }
+  div.content table {
+    font-size: 3vw;
+    text-align: center;
+    border: 0px;
+    width: 100%;
+    height: 600px; }
+  div.content td {
+    border: none; }
+  div.content div.warning {
+    font-size: 3.4666666667vw;
+    text-align: center;
+    width: 80vw; }
+    div.content div.warning > i {
+      font-size: 3vw;
+      position: static; }
+
+/*# sourceMappingURL=selection.css.map */

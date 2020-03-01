@@ -1,0 +1,37 @@
+@import "./common";
+body{
+	background: url(../img/微信界面-1.jpg);
+	background-repeat:no-repeat ;
+	height: 100vh;
+	background-size:cover; 
+	background-attachment:fixed;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	>div.content{
+		
+		justify-content:center;
+		display: flex;
+		align-items: center;
+		width: 79vw;
+			height: 51vw;
+			background-color: #ffffff;
+			box-shadow: 0vw 1vw 2vw 1vw 
+				rgba(0, 0, 0, 0.3);
+				opacity: 40%;
+			border-radius: 1vw;
+		>div{
+			opacity: 100%;
+			width: 17vw;
+				height: 4vw;
+				font-family: SourceHanSansCN-Medium;
+				font-size: 4vw;
+				font-weight: normal;
+				font-stretch: normal;
+				line-height: 6vw;
+				letter-spacing: 0vw;
+				color: #434242;
+		}
+		
+	}
+}
